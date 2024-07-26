@@ -16,7 +16,7 @@ const About = () => {
   const [dataIndex, setDataIndex] =
     useState(0);
 
-  function changeCard(ref) {
+  function changeCard(ref: any) {
     setDataIndex(
       Number(ref.current.id) - 1
     );

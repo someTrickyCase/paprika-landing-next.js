@@ -12,7 +12,7 @@ import React, {
 export const ImagesSlider = ({
   time = 5000,
   images,
-  children,
+
   overlay = true,
   overlayClassName,
   className,
@@ -21,7 +21,7 @@ export const ImagesSlider = ({
 }: {
   time?: number;
   images: string[];
-  children: React.ReactNode;
+
   overlay?: React.ReactNode;
   overlayClassName?: string;
   className?: string;
@@ -169,7 +169,7 @@ export const ImagesSlider = ({
       style={{
         perspective: "1000px",
       }}>
-      {areImagesLoaded && children}
+      {areImagesLoaded}
       {areImagesLoaded && overlay && (
         <div
           className={cn(

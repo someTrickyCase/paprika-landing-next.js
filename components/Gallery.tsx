@@ -12,7 +12,6 @@ const Gallery = () => {
       <div className='h-[60vh] grid grid-cols-3 gap-2 items-center justify-center'>
         <ImagesSlider
           className='w-auto'
-          children={[]}
           direction='down'
           images={[
             "shotOne.jpg",
@@ -24,7 +23,6 @@ const Gallery = () => {
         <ImagesSlider
           time={4200}
           className='w-[31vw]'
-          children={[]}
           images={[
             "shotTwo.jpg",
             "shotThree.jpg",
@@ -35,7 +33,6 @@ const Gallery = () => {
         <ImagesSlider
           time={2700}
           className='w-[31vw]'
-          children={[]}
           direction='down'
           images={[
             "shotThree.jpg",
@@ -47,7 +44,6 @@ const Gallery = () => {
         <ImagesSlider
           time={3000}
           className='w-[31vw]'
-          children={[]}
           images={[
             "shotFour.jpg",
             "shotOne.jpg",
@@ -58,7 +54,6 @@ const Gallery = () => {
         <ImagesSlider
           time={4000}
           className='w-[31vw] '
-          children={[]}
           direction='down'
           images={[
             "shotFour.jpg",
@@ -70,7 +65,6 @@ const Gallery = () => {
         <ImagesSlider
           time={3500}
           className='w-[31vw]'
-          children={[]}
           images={[
             "shotTwo.jpg",
             "shotThree.jpg",
