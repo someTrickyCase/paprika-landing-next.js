@@ -31,7 +31,12 @@ const config: Config = {
   ],
   darkMode: "class",
   theme: {
-    colors: {},
+    colors: {
+      red: "#fe0c1a",
+      black: "#171b1c",
+      gray: "#252a2b",
+      white: "#f0f2f3",
+    },
 
     extend: {
       animation: {
@@ -39,6 +44,20 @@ const config: Config = {
           "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
       },
       keyframes: {
+        moveVertical: {
+          "0%": {
+            transform:
+              "translateY(-50%)",
+          },
+          "50%": {
+            transform:
+              "translateY(50%)",
+          },
+          "100%": {
+            transform:
+              "translateY(-50%)",
+          },
+        },
         scroll: {
           to: {
             transform:

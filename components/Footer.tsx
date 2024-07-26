@@ -4,14 +4,14 @@ import { FlipWords } from "./ui/FlipWords";
 
 const Footer = () => {
   return (
-    <footer className='h-[50vh] w-full relative antialiased bg-[#252a2b]'>
+    <footer className='h-[50vh] w-full relative antialiased bg-gray'>
       <div className='text-[#ffffff]  relative w-full h-full flex flex-col justify-between items-center text-center p-10'>
         <div className='mb-4 text-base md:text-lg lg:text-2xl'>
           Живая музыка украшает любой
           праздник. Мы поможем Вам
           сделать это <br />
           <FlipWords
-            className='text-[#ff141f]'
+            className='text-red'
             words={[
               "ярко",
               "красиво",

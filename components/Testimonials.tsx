@@ -8,17 +8,17 @@ const Testimonials = () => {
   return (
     <div
       id='testimonials'
-      className='min-h-[100vh] h-auto w-full relative antialiased bg-[#171b1c] flex flex-col gap-8 items-center justify-center border-b-2 border-[#252a2b]'>
+      className='min-h-[100vh] h-auto w-full relative antialiased bg-black flex flex-col gap-8 items-center justify-center border-b-2 border-gray'>
       <BackgroundBeams />
       <div className='absolute top-8 flex items-center justify-center text-center'>
-        <h2 className=' text-[#f0f2f3] text-3xl font-extrabold ml-3'>
+        <h2 className=' text-white text-3xl font-extrabold ml-3'>
           <FlipWords
             words={[
               "Люди",
               "Клиенты",
               "Организаторы",
             ]}
-            className='text-[#fe0c1a]'
+            className='text-red'
           />
           <br />
           говорят о нас

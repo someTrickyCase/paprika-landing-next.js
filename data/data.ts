@@ -1,5 +1,17 @@
-import "@/public/note.svg";
-
+const navItems = [
+  {
+    name: "О нас",
+    link: "#about",
+  },
+  {
+    name: "Галлерея",
+    link: "#gallery",
+  },
+  {
+    name: "Отзывы",
+    link: "#testimonials",
+  },
+];
 const svgList = [
   {
     id: "1",
@@ -80,6 +92,7 @@ const testimonialsData = [
 ];
 
 export {
+  navItems,
   testimonialsData,
   svgList,
   aboutData,

@@ -10,6 +10,7 @@ import React, {
 } from "react";
 
 export const ImagesSlider = ({
+  time = 5000,
   images,
   children,
   overlay = true,
@@ -18,6 +19,7 @@ export const ImagesSlider = ({
   autoplay = true,
   direction = "up",
 }: {
+  time?: number;
   images: string[];
   children: React.ReactNode;
   overlay?: React.ReactNode;
@@ -110,7 +112,7 @@ export const ImagesSlider = ({
     if (autoplay) {
       interval = setInterval(() => {
         handleNext();
-      }, 5000);
+      }, time);
     }
 
     return () => {

@@ -25,10 +25,10 @@ const About = () => {
   return (
     <div
       id='about'
-      className='min-h-[100vh] h-auto w-full relative antialiased bg-[#171b1c] flex flex-col gap-8 items-center justify-center border-b-2 border-[#252a2b]'>
+      className='min-h-[100vh] h-auto w-full relative antialiased bg-black flex flex-col gap-8 items-center justify-center border-b-2 border-gray'>
       <BackgroundBeams />
 
-      <h2 className='absolute top-8 text-[#f0f2f3] text-3xl font-extrabold ml-3'>
+      <h2 className='absolute top-8 text-white text-3xl font-extrabold ml-3'>
         Kое-что, что вы <br />
         <FlipWords
           words={[
@@ -36,16 +36,16 @@ const About = () => {
             "должны",
             "любите",
           ]}
-          className='text-[#fe0c1a]'
+          className='text-red'
         />{" "}
         знать о нас
       </h2>
 
       <div className='h-auto w-[80vw] md:w-[70vw] lg:w-[900px] transition-all'>
-        <h3 className='text-xl font-bold text-[#fe0c1a]'>
+        <h3 className='text-xl font-bold text-red'>
           {aboutData[dataIndex].title}
         </h3>
-        <p className='mt-8 text-base font-light text-[#f0f2f3]'>
+        <p className='mt-8 text-base font-light text-white'>
           {
             aboutData[dataIndex]
               .description

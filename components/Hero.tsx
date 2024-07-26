@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <section
       id='hero'
-      className='h-[100vh] w-full bg-[#171b1c] border-b-2 border-[#252a2b]'>
+      className='h-[100vh] w-full bg-black border-b-2 border-gray'>
       <div className='absolute z--10 h-[100vh] w-[100vw] flex justify-center overflow-hidden'>
         <video
           autoPlay
@@ -15,13 +15,13 @@ const Hero = () => {
           src='/Brand-video.mp4'
         />
       </div>
-      <div className='flex flex-col h-full w-full items-center justify-center text-[#f0f2f3]'>
+      <div className='flex flex-col h-full w-full items-center justify-center text-white'>
         <p className='z-10 font-light text-xl md:text-2xl lg:text-4xl'>
           кавер-группа
         </p>
         <h1 className='z-10 font-light text-6xl sm:text-8xl md:text-9xl'>
           Papr
-          <span className='text-[#fe0c1a]'>
+          <span className='text-red'>
             i
           </span>
           ka
